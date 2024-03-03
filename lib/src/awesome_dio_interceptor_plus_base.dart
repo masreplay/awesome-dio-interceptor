@@ -8,7 +8,7 @@ import 'package:dio/dio.dart';
 /// A simple dio log interceptor (mainly inspired by the built-in dio
 /// `LogInterceptor`), which has coloring features and json formatting
 /// so you can have a better readable output.
-class AwesomeDioInterceptor implements Interceptor {
+class AwesomeDioInterceptorPlus implements Interceptor {
   /// Creates a colorful dio logging interceptor, which has the following:
   /// `requestStyle`: The request color style, defaults to `YELLOW`
   ///
@@ -42,7 +42,7 @@ class AwesomeDioInterceptor implements Interceptor {
   ///   ),
   /// );
   /// ```
-  AwesomeDioInterceptor({
+  AwesomeDioInterceptorPlus({
     Styles? requestStyle,
     Styles? responseStyle,
     Styles? errorStyle,
