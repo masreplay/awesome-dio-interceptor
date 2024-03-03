@@ -1,7 +1,7 @@
-name: awesome_dio_interceptor
+name: awesome_dio_interceptor_plus
 description: A simple dio log interceptor (mainly inspired by the built-in dio LogInterceptor), which has coloring features and json formatting so you can have a better readable output.
 version: 1.1.0
-homepage: https://github.com/devmuaz/awesome_dio_interceptor
+homepage: https://github.com/masreplay/awesome_dio_interceptor_plus
 
 environment:
   sdk: ^3.3.0
